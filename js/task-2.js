@@ -8,6 +8,8 @@ function makeArray(firstArray, secondArray, maxLength) {
             resultArray.push(sumArray[i]);
         }
         return resultArray;
+    } else {
+        return sumArray;
     }
 }
 
